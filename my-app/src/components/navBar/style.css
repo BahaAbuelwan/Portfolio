@@ -1,0 +1,19 @@
+.header .navbar .btn-outline-primary {
+    color: #aaa;
+    border-color: #aaa;
+
+}
+.header .navbar .btn-outline-primary:hover {
+    color: #29d9d5;
+    border-color: #29d9d5;
+    background: none;
+
+}
+
+.header .navbar .btn {
+    font-size: 1.7rem;
+
+}
+
+
+
