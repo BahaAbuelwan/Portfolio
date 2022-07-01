@@ -1,0 +1,26 @@
+#titlesss {
+  height: fit-content;
+}
+
+.home .content .social-icons a {
+  width: fit-content;
+}
+
+.home .content .social-icons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  padding: 0;
+  margin-top: 5vh;
+  height: 35px;
+  margin-left: -0.65vw;
+}
+.home .content .social-icons li a {
+   
+    height: 35px;
+    width: 50px;    
+  
+  }
+

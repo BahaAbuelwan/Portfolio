@@ -30,12 +30,12 @@ const Project = () => {
             </p>
             <ul class="social-icons">
               <li>
-                <a href="#">
+                <a href="https://github.com/ECMA-Team/MERAKI_Academy_Project_5" target="_blank">
                   <i class="fab fa-github"></i>
                 </a>
               </li>
               <li>
-                <a href="#">
+              <a href="https://ecmashop.netlify.app/" target="_blank">
                   <i class="fa fa-globe"></i>
                 </a>
               </li>
@@ -57,12 +57,12 @@ const Project = () => {
             </p>
             <ul class="social-icons">
               <li>
-                <a href="#">
+                <a href="https://github.com/C5-BahaAbuelwan/MERAKI_Academy_Project_4" target="_blank">
                   <i class="fab fa-github"></i>
                 </a>
               </li>
               <li>
-                <a href="#">
+                <a href="#" target="_blank">
                   <i class="fa fa-globe"></i>
                 </a>
               </li>
@@ -81,12 +81,12 @@ const Project = () => {
             </p>
             <ul class="social-icons">
               <li>
-                <a href="#">
+                <a href="https://github.com/C5-BahaAbuelwan/MERAKI_Academy_Project_2" target="_blank">
                   <i class="fab fa-github"></i>
                 </a>
               </li>
               <li>
-                <a href="#">
+                <a href="https://bahaa-movies.netlify.app/" target="_blank">
                   <i class="fa fa-globe"></i>
                 </a>
               </li>

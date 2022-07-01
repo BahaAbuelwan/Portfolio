@@ -5,15 +5,34 @@ import About from "./components/AboutMe";
 import Skills from "./components/Skills";
 import Project from "./components/projects";
 function App() {
-  return <div className="App">
-    <NavBar/>
-    <HeroSection/>
-    <About/>
-    <Skills/>
-    <Project/>
+  return (
+    <div className="App">
+      <NavBar />
+      <HeroSection />
+      <br />
+      <br />
+      <br />
+      <hr />
+      <br />
 
-    
-  </div>;
+      <About />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <hr />
+      <br />
+
+      <Skills />
+      <br />
+      <br />
+      <hr />
+      <br />
+
+      <Project />
+    </div>
+  );
 }
 
 export default App;

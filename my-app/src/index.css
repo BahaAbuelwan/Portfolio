@@ -94,7 +94,7 @@ section {
   border-radius: 3rem;
   cursor: pointer;
   background:none;
-  margin-top: 18vh;
+  
 }
 
 .btn:hover {
@@ -877,6 +877,7 @@ section {
   }
   .home .content h3 {
     font-size: 9vw;
+    height: fit-content;
   }
 }
 
