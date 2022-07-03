@@ -4,6 +4,7 @@ import HeroSection from "./components/heroSection";
 import About from "./components/AboutMe";
 import Skills from "./components/Skills";
 import Project from "./components/projects";
+import Footer from "./components/footer";
 function App() {
   return (
     <div className="App">
@@ -31,6 +32,21 @@ function App() {
       <br />
 
       <Project />
+      <br />
+      <br />
+      <hr />
+      
+      <Footer />
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+
     </div>
   );
 }

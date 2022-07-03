@@ -14,8 +14,11 @@ const NavBar=()=>{
             <a data-aos="zoom-in-left" data-aos-delay="450" href="#about">about</a>
             <a data-aos="zoom-in-left" data-aos-delay="600" href="#skills">Skills</a>
             <a data-aos="zoom-in-left" data-aos-delay="750" href="#projects">Projects</a>
-            <a data-aos="zoom-in-left" data-aos-delay="900" href="#contact">Contact</a>
-            <Button className='Resume' variant="outline-primary"  data-aos="zoom-in-left" data-aos-delay="900">Resume</Button>{' '}
+            <a data-aos="zoom-in-left" data-aos-delay="900" href="#Footer">Contact</a>
+            <Button className='Resume' variant="outline-primary"  data-aos="zoom-in-left" 
+            href='https://onedrive.live.com/?cid=512061AFF0E92985&id=512061AFF0E92985%21123&parId=root&o=OneUp' 
+            target="_blank"
+            data-aos-delay="900">Resume</Button>{' '}
             
             
         </nav>

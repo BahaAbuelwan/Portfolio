@@ -12,18 +12,10 @@ const HeroSection = () => {
           Full Stack Web Developer
         </h3>
     
-        {/* <p data-aos="fade-up" data-aos-delay="450">
-          {" "}
-          I change my career from civil engineer to Full-stack developer because I find myself in this field, I love challenges and always look forward
-          to learning new skills
-        </p> */}
+        
         
         <ul class="social-icons">
-          {/* <li>
-            <a href="mailto:baha.abuellwan@gmail.com" target="_blank">
-            <i class="fa fa-envelope"></i>
-            </a>
-          </li> */}
+          
           <li>
             <a href="https://github.com/BahaAbuelwan" target="_blank">
               <i class="fab fa-github"></i>
