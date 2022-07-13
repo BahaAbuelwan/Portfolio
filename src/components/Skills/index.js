@@ -9,8 +9,22 @@ import JQueryImage from "./images/jquery-original.svg";
 import NodeJSiMAGE from "./images/Node.js_logo.svg";
 import SocketIo from "./images/Socket-io.svg";
 import SqlImage from "./images/microsoft-sql-server-logo-svgrepo-com.svg";
+import { SiMongodb } from "react-icons/si";
+import { AiFillHtml5 } from "react-icons/ai";
+import { FaCss3Alt } from "react-icons/fa";
+import { SiJavascript } from "react-icons/si";
+import { SiJquery } from "react-icons/si";
+import { FaNodeJs } from "react-icons/fa";
+import { SiExpress } from "react-icons/si";
+import { SiSocketdotio } from "react-icons/si";
+import { DiMysql } from "react-icons/di";
+import { DiReact } from "react-icons/di";
+import { DiMsqlServer } from "react-icons/di";
+import { SiRedux } from "react-icons/si";
+import { AiFillGithub } from "react-icons/ai";
 
 import "./style.css";
+
 const Skills = () => {
   return (
     <div className="skills">
@@ -29,12 +43,9 @@ const Skills = () => {
           data-aos-delay="200"
           data-aos-duration="1000"
         >
-          <img
-            src={html5Image}
-            style={{ backgroundColor: "white" }}
-            alt="image"
-            className="program_image"
-          />
+          <a>
+            <AiFillHtml5 />
+          </a>
 
           <h5>HTML</h5>
         </div>
@@ -44,12 +55,9 @@ const Skills = () => {
           data-aos-delay="200"
           data-aos-duration="1000"
         >
-          <img
-            src={CSSImage}
-            style={{ backgroundColor: "white" }}
-            alt="image"
-            className="program_image"
-          />
+          <a>
+            <FaCss3Alt />
+          </a>
 
           <h5>CSS</h5>
         </div>
@@ -59,7 +67,9 @@ const Skills = () => {
           data-aos-delay="200"
           data-aos-duration="1000"
         >
-          <img src={JavaScriptImage} alt="image" className="program_image" />
+          <a>
+            <SiJavascript />
+          </a>
 
           <h5>JavaScript</h5>
         </div>
@@ -69,7 +79,9 @@ const Skills = () => {
           data-aos-delay="200"
           data-aos-duration="1000"
         >
-          <img src={JQueryImage} alt="image" className="program_image" />
+          <a>
+            <SiJquery />
+          </a>
 
           <h5>JQuery</h5>
         </div>
@@ -79,12 +91,9 @@ const Skills = () => {
           data-aos-delay="200"
           data-aos-duration="1000"
         >
-          <img
-            src={NodeJSiMAGE}
-            style={{ backgroundColor: "white" }}
-            alt="image"
-            className="program_image"
-          />
+          <a>
+            <FaNodeJs />
+          </a>
 
           <h5>Node.JS</h5>
         </div>
@@ -94,12 +103,9 @@ const Skills = () => {
           data-aos-delay="200"
           data-aos-duration="1000"
         >
-          <img
-            src="https://www.vectorlogo.zone/logos/expressjs/expressjs-ar21.svg"
-            style={{ backgroundColor: "white" }}
-            alt="image"
-            className="program_image"
-          />
+          <a>
+            <SiExpress />
+          </a>
 
           <h5>Express.JS</h5>
         </div>
@@ -109,7 +115,9 @@ const Skills = () => {
           data-aos-delay="200"
           data-aos-duration="1000"
         >
-          <img src={SocketIo} alt="image" className="program_image" />
+          <a>
+            <SiSocketdotio />
+          </a>
 
           <h5>Socket.IO</h5>
         </div>
@@ -119,7 +127,9 @@ const Skills = () => {
           data-aos-delay="200"
           data-aos-duration="1000"
         >
-          <img src={mysqlImage} alt="image" className="program_image" />
+          <a>
+            <DiMysql />
+          </a>
 
           <h5>MySQL</h5>
         </div>
@@ -129,12 +139,9 @@ const Skills = () => {
           data-aos-delay="200"
           data-aos-duration="1000"
         >
-          <img
-            src="https://www.vectorlogo.zone/logos/mongodb/mongodb-ar21.svg"
-            alt="image"
-            style={{ backgroundColor: "white" }}
-            className="program_image"
-          />
+          <a>
+            <SiMongodb />
+          </a>
 
           <h5>MongoDB</h5>
         </div>
@@ -144,10 +151,9 @@ const Skills = () => {
           data-aos-delay="200"
           data-aos-duration="1000"
         >
-          <img src={SqlImage} alt="image" className="program_image" 
-            style={{ backgroundColor: "white" }}
-            />
-          
+          <a>
+            <DiMsqlServer />
+          </a>
 
           <h5>SQLServer</h5>
         </div>
@@ -157,7 +163,9 @@ const Skills = () => {
           data-aos-delay="200"
           data-aos-duration="1000"
         >
-          <img src={ReactImage} className="program_image" />
+          <a>
+            <DiReact />
+          </a>
 
           <h5>React.JS</h5>
         </div>
@@ -167,7 +175,9 @@ const Skills = () => {
           data-aos-delay="200"
           data-aos-duration="1000"
         >
-          <img src={reduxImage} alt="image" className="program_image" />
+          <a>
+            <SiRedux />
+          </a>
 
           <h5>Redux</h5>
         </div>
@@ -177,7 +187,9 @@ const Skills = () => {
           data-aos-delay="200"
           data-aos-duration="1000"
         >
-          <img src={githubimage} alt="image" className="program_image" />
+          <a>
+            <AiFillGithub />
+          </a>
 
           <h5>Git and GitHub</h5>
         </div>

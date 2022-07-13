@@ -10,7 +10,7 @@ const Project = () => {
   return (
     <section class="projects" id="projects">
       <div class="heading">
-        <span>Projects</span>
+        {/* <span>Projects</span> */}
         <h1>Projects Done With JavaScript</h1>
       </div>
 

@@ -22,7 +22,7 @@
   text-align: center;
   width: 75%;
   color: white;
-  font-size: medium;
+  font-size: 2rem;
 }
 
 .cards img {
@@ -32,13 +32,33 @@
 
 .Title{
     text-align: center;
-    color: #29d9d5;
+    color: #ffffff;
     text-decoration: underline;
-    font-size: 2rem;
+    font-size: 4rem;
 }
 
 .cards:hover{
     -ms-transform: scale(1.5); /* IE 9 */
     -webkit-transform: scale(1.5); /* Safari 3-8 */
     transform: scale(1.5); 
+}
+
+.skills .skills_container .cards a {
+  color: #10a7c2;
+    font-size: 4vw;
+    width: 25%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+@media (max-width: 450px){
+  .skills .skills_container .cards h5{
+    font-size: 1.2rem;
+  }
+  .skills .skills_container .cards a {
+    font-size: 6vw;
+  }
 }

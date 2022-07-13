@@ -2,6 +2,7 @@ import "./style.css"
 const Footer = () => {
   return (
     <section class="Footer" id="Footer">
+      
       <h2
         className="Title"
         data-aos="zoom-out"

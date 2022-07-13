@@ -1,19 +1,39 @@
-.header .navbar .btn-outline-primary {
-    color: #aaa;
-    border-color: #aaa;
-
+.btn-outline-primary {
+  color: #aaa !important;
+  border-color: #aaa !important;
+  font-size: 1.7rem !important;
 }
-.header .navbar .btn-outline-primary:hover {
-    color: #29d9d5;
-    border-color: #29d9d5;
-    background: none;
+.header .nav-link .btn-outline-primary:hover {
+  color: #29d9d5;
+  border-color: #29d9d5;
+  background: none;
+}
 
+.nav-link:hover{
+color:#29d9d5 !important;
 }
 
 .header .navbar .btn {
-    font-size: 1.7rem;
-
+  font-size: 1.7rem;
 }
 
+.btn-outline-primary:hover {
+  color: white !important;
+  background-color: #29d9d5 !important;
+  border-color: none;
+}
 
+.navbar-dark .navbar-nav .nav-link {
+    font-size: 1.7rem !important;
+    margin: 0 1rem;
+}
 
+.navbar-brand {
+  
+    font-size: 2rem !important;
+}
+
+.navbar-nav {
+    
+    background-color: #212529 !important;
+}
