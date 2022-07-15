@@ -17,7 +17,9 @@ const Project = () => {
       <div class="box-container">
         <div class="box" data-aos="fade-up" data-aos-delay="150">
           <div class="image">
-            <img src={ecmaImage} alt="ecmaImage" />
+            <img src={ecmaImage} alt="ecmaImage" onClick={()=>{
+               window.open("https://ecmashop.netlify.app/");
+            }} />
           </div>
           <div class="content">
             <h3>ECMA SHOP E-COMMERCE</h3>
@@ -44,7 +46,9 @@ const Project = () => {
         </div>
         <div class="box" data-aos="fade-up" data-aos-delay="150">
           <div class="image">
-            <img src={DevaImage} alt="devaImage" />
+            <img src={DevaImage} alt="devaImage" onClick={()=>{
+               window.open("https://deva-shop.netlify.app/");
+            }}/>
           </div>
           <div class="content">
             <h3>DEVA SHOP E-COMMERCE</h3>
@@ -62,7 +66,7 @@ const Project = () => {
                 </a>
               </li>
               <li>
-                <a href="#" target="_blank">
+                <a href="https://deva-shop.netlify.app/" target="_blank">
                   <i class="fa fa-globe"></i>
                 </a>
               </li>
@@ -71,7 +75,9 @@ const Project = () => {
         </div>
         <div class="box" data-aos="fade-up" data-aos-delay="150">
           <div class="image">
-            <img src={BahaMoves} alt="moves image" />
+            <img src={BahaMoves} alt="moves image" onClick={()=>{
+               window.open("https://bahaa-movies.netlify.app/");
+            }}/>
           </div>
           <div class="content">
             <h3>Baha' MOVIES</h3>
