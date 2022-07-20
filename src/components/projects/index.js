@@ -24,8 +24,13 @@ const Project = () => {
           <div class="content">
             <h3>ECMA SHOP E-COMMERCE</h3>
             <p><span className="Arrow" ><DiCode/></span>
-              A website that allows people to buy and sell physical goods over
-              the internet rather than at a brick-and-mortar location.
+            An online store for selling home appliances.
+Developed to enhance the online shopping experience
+with a user-friendly interface, where users can easily
+browse items, add them to a shopping cart, select the
+payment method, and evaluate the products. Also, it
+has an attractive admin dashboard to manage the
+entire website
               <br /><span className="Arrow" ><DiCode/></span>
               Technologies: React.js, Node.js, Redux, MySQL, and Express.JS
               framework.
@@ -53,8 +58,8 @@ const Project = () => {
           <div class="content">
             <h3>DEVA SHOP E-COMMERCE</h3>
             <p><span className="Arrow" ><DiCode/></span>
-              A website that allows people to buy and sell physical goods over
-              the internet rather than at a brick-and-mortar location.
+            An online computer store offering a variety of
+computer systems and accessories.
               <br /><span className="Arrow" ><DiCode/></span>
               Technologies: React.js, Node.js, MongoDB, and Express.JS
               framework.

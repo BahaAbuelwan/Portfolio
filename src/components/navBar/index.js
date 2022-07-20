@@ -65,7 +65,7 @@ const NavBar = () => {
             <Button
               className="Resume"
               variant="outline-primary"
-              href="https://onedrive.live.com/?cid=512061AFF0E92985&id=512061AFF0E92985%21123&parId=root&o=OneUp"
+              href="https://drive.google.com/file/d/14S9a7UrSsk9ormaY4b70KDq2wyFnnz7u/view?usp=sharing"
               target="_blank"
               data-aos="zoom-in-left"
               data-aos-delay="1000"
